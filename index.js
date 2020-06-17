@@ -20,6 +20,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
+  // message start with the prefix (via config)
   if (!message.content.startsWith(prefix) || message.author.bot) return;
   
   console.log(message.content);
@@ -49,5 +50,5 @@ client.on('message', message => {
   }
 });
 
-
+// token via config.json
 client.login(token);

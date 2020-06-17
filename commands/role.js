@@ -1,7 +1,7 @@
 module.exports = {
-    name: 'role',
-    args: true,
-    usage: '<user> <role>',
+  name: 'role',
+  args: true,
+  usage: '<user> <role>',
 	description: 'Information about the arguments provided.',
 	execute(message, args) {
 		// if (args[0] === 'foo') {
