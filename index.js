@@ -20,13 +20,16 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  // message start with the prefix (via config)
+  // message start with the prefix (via config) and if message from bot no action
   if (!message.content.startsWith(prefix) || message.author.bot) return;
-  
   console.log(message.content);
 
+  // remove command for only keep args (on an array) and remove blank
   const args = message.content.slice(prefix.length).split(/ +/);
-	const commandName = args.shift().toLowerCase();
+  console.log(args)
+
+  const commandName = args.shift().toLowerCase();
+  console.log(commandName)
 
   if (!client.commands.has(commandName)) return;
 
