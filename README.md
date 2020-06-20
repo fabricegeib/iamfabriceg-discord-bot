@@ -12,7 +12,7 @@ commands :
 !create
 !region
 !user
-// !user-info
+!user-info [arguments]
 ```
 
 ---
