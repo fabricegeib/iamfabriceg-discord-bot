@@ -6,15 +6,30 @@ https://iamfabriceg.xyz | https://skidip.team
 
 commands :
 ```
-!ping
 !beep
+!dice
+!embed
+!fn-creative
+!ping
+!role
 !server
-!create
-!region
+!twitch
 !user
 !user-info [arguments]
 ```
 
+```
+Commande chargée: beep
+Commande chargée: dice
+Commande chargée: embed
+Commande chargée: fn-creative
+Commande chargée: ping
+Commande chargée: role
+Commande chargée: server
+Commande chargée: twitch
+Commande chargée: user-info
+Commande chargée: user
+```
 ---
 
 https://discordapp.com/developers/docs/intro

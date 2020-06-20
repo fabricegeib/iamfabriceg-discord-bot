@@ -14,7 +14,7 @@ console.log(commandFiles);
 for (const file of commandFiles) {
 	const command = require(`./commands/${file}`);
   client.commands.set(command.name, command);
-  console.log(`Commande chargée: ${command.name}`);
+  console.log(client.commands);
 }
 
 // set an activity for the bot
@@ -54,7 +54,7 @@ client.on('message', message => {
 	}
   
   try {
-    command.execute(client, message, args);
+    command.execute(message, args);
   } catch (error) {
     console.error(error);
     message.reply('there was an error trying to execute that command!');
