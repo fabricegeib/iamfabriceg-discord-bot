@@ -1,29 +1,25 @@
-const fs = require('fs');
 const { Client, Collection } = require('discord.js');
 const { prefix, token } = require('./config.json');
+const { readdirSync } = require('fs');
+var junk = require('junk');
 
 // use discord.js
 const client = new Client();
 client.commands = new Collection();
 
-// folder commands with fs
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-console.log(commandFiles);
+const loadCommands = (dir = "./commands/") => {
+  readdirSync(dir).forEach(dirs => {
+    const commands = readdirSync(`${dir}/${dirs}/`).filter(files => files.endsWith(".js"));
 
-// a boucle for all command files and load commands
-for (const file of commandFiles) {
-	const command = require(`./commands/${file}`);
-  client.commands.set(command.name, command);
-  console.log(`Commande chargée: ${command.name}`);
-}
+    for (const file of commands) {
+      const getFileName = require(`${dir}/${dirs}/${file}`);
+      client.commands.set(getFileName.help.name, getFileName);
+      console.log(`Commande chargée: ${getFileName.help.name}`);
+    };
+  });
+};
 
-// set an activity for the bot
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-  console.log('I am ready!');
-
-  client.user.setActivity('iamfabriceg.xyz');
-});
+loadCommands();
 
 // commnd exist => message execution
 client.on('message', message => {
@@ -42,6 +38,7 @@ client.on('message', message => {
   if (!client.commands.has(commandName)) return;
 
   const command = client.commands.get(commandName);
+  console.log(command)
 
   if (command.args && !args.length) {
 		let reply = `You didn't provide any arguments, ${message.author}!`;
@@ -54,11 +51,19 @@ client.on('message', message => {
 	}
   
   try {
-    command.execute(client, message, args);
+    command.run(client, message, args);
   } catch (error) {
     console.error(error);
     message.reply('there was an error trying to execute that command!');
   }
+});
+
+// set an activity for the bot
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);
+  console.log('I am ready!');
+
+  client.user.setActivity('iamfabriceg.xyz');
 });
 
 // token via config.json
