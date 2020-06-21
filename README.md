@@ -30,6 +30,28 @@ Commande chargée: twitch
 Commande chargée: user-info
 Commande chargée: user
 ```
+
+# Roles
+
+Live
+
+Twitch Subscriber: Tier 3
+Twitch Subscriber: Tier 2
+Twitch Subscriber: Tier 1
+Twitch Subscriber
+
+FireTipR
+uTip
+
+Fortnite
+Grand Thef Auto V
+League of Legends
+Red Dead Redemption 2
+Valorant
+Teamfight Tactics
+
+Membres
+
 ---
 
 https://discordapp.com/developers/docs/intro
