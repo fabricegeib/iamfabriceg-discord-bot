@@ -40,7 +40,7 @@ Twitch Subscriber: Tier 2
 Twitch Subscriber: Tier 1
 Twitch Subscriber
 
-FireTipR
+FireTipR (block the add with bot)
 uTip
 
 Fortnite
@@ -51,6 +51,10 @@ Valorant
 Teamfight Tactics
 
 Membres
+
+---
+.export FortniteGame/Content/Athena/Items/Cosmetics/LoadingScreens/LSID_053_SupplyLlama
+.export FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MechanicalEngineer1H
 
 ---
 
