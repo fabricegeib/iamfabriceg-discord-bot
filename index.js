@@ -1,7 +1,7 @@
 const { Client, Collection } = require('discord.js');
 const { prefix, token } = require('./config.json');
 const { readdirSync } = require('fs');
-var junk = require('junk');
+// var junk = require('junk');
 
 // use discord.js
 const client = new Client();
@@ -40,15 +40,13 @@ client.on('message', message => {
   const command = client.commands.get(commandName);
   console.log(command)
 
-  if (command.args && !args.length) {
-		let reply = `You didn't provide any arguments, ${message.author}!`;
-
-		if (command.usage) {
-			reply += `\nThe proper usage would be: \`${prefix}${command.name} ${command.usage}\``;
-		}
-
-		return message.channel.send(reply);
-	}
+  if (command.help.args && !args.length) {
+    let noArgsReply = `You didn't provide any arguments, ${message.author}!`;
+    
+    if (command.help.usage) noArgsReply += `\nThe proper usage would be: \`${prefix}${command.help.name} ${command.help.usage}\``;
+    
+    return message.channel.send(noArgsReply);
+  }
   
   try {
     command.run(client, message, args);
