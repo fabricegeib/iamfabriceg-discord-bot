@@ -1,4 +1,4 @@
-const { Client, Collection } = require('discord.js');
+const { Client, Collection, MessageManager } = require('discord.js');
 const { prefix, token } = require('./config.json');
 const { readdirSync } = require('fs');
 var junk = require('junk');
@@ -44,14 +44,13 @@ client.on('message', message => {
 
   if (!command) return;
 
-  if (command.args && !args.length) {
-		let reply = `You didn't provide any arguments, ${message.author}!`;
+  if (command.help.permissions && !message.member.hasPermission('BAN_MEMBERS')) return message.reply("You don't have the permissions for this command");
 
-		if (command.usage) {
-			reply += `\nThe proper usage would be: \`${prefix}${command.help.name} ${command.help.usage}\``;
-		}
+  if (command.help.args && !args.length) {
+		let noArgsReply = `You didn't provide any arguments, ${message.author}!`;
 
-		return message.channel.send(reply);
+		if (command.help.usage) noArgsReply += `\nThe proper usage would be: \`${prefix}${command.help.name} ${command.help.usage}\``;
+		return message.channel.send(noArgsReply);
   }
   
   if (!client.cooldowns.has(command.help.name)) {

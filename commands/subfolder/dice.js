@@ -24,5 +24,9 @@ module.exports.run = (client, message, args) => {
 module.exports.help = {
   name: 'dice',
   aliases: ['dé', 'dés', 'dices'],
-	description: 'Return values of dices',
+  description: 'Return values of dices',
+  permissions: true,
+	args: false,
+	usage: '',
+	cooldown: 10
 };
