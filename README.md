@@ -53,6 +53,57 @@ Teamfight Tactics
 Membres
 
 ---
+# Embed
+
+{
+   "embeds":[
+      {
+         "title":"<<< {{ChannelName}} is live on Twitch!>>>",
+         "url":"<<<{{ChannelUrl}}>>>",
+         "description":"<<<{{Game}}>>>"
+      }
+   ]
+}
+
+{
+   "embeds":[
+      {
+         "title":"<<< {{ChannelName}} now follow you Twitch!>>>"
+      }
+   ]
+}
+
+{
+  "content": "{{ChannelName}} went live on Twitch",
+  "embeds": [{
+    "title": "{{ChannelUrl}}",
+    "url": "{{ChannelUrl}}",
+    "color": 6570404,
+    "footer": {
+      "text": "{{CreatedAt}}"
+    },
+    "image": {
+      "url": "{{StreamPreview}}"
+    },
+    "author": {
+      "name": "{{ChannelName}} is now streaming"
+    },
+    "fields": [
+      {
+        "name": "Playing",
+        "value": "{{Game}}",
+        "inline": true
+      },
+      {
+        "name": "Started at (streamer timezone)",
+        "value": "{{CreatedAt}}",
+        "inline": true
+      }
+    ]
+  }]
+}
+
+---
 .export FortniteGame/Content/Athena/Items/Cosmetics/LoadingScreens/LSID_053_SupplyLlama
 .export FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MechanicalEngineer1H
 
