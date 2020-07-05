@@ -34,17 +34,22 @@ client.on('message', message => {
 
   const commandName = args.shift().toLowerCase();
   // console.log(commandName)
+  console.log(args.splice(1).join(' '));
+
+
 
   // if the commands not exist
   // if (!client.commands.has(commandName)) return;
   // console.log(command)
 
   const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.help.aliases && cmd.help.aliases.includes(commandName));
-  console.log(client.commands);
+  // console.log(client.commands);
 
   if (!command) return;
 
-  if (command.help.permissions && !message.member.hasPermission('BAN_MEMBERS')) return message.reply("You don't have the permissions for this command");
+  if (command.help.isUserAdmin && message.guild.member(message.mentions.users.first()).hasPermission('BAN_MEMBERS')) return message.reply(`You cannot use the command \`${prefix}${command.help.name}\` on this user`);
+
+  if (command.help.permissions && !message.member.hasPermission('BAN_MEMBERS')) return message.reply(`You don't have the permissions for the command \`${prefix}${command.help.name}\``);
 
   if (command.help.args && !args.length) {
 		let noArgsReply = `You didn't provide any arguments, ${message.author}!`;
@@ -61,7 +66,7 @@ client.on('message', message => {
   const tStamps = client.cooldowns.get(command.help.name);
   const cdAmount = (command.help.cooldown || 5) * 1000;
   // console.log(client.commands);
-  console.log(client.cooldowns);
+  // console.log(client.cooldowns);
 
   if (tStamps.has(message.author.id)) {
     const cdExpirationTime = tStamps.get(message.author.id) + cdAmount;

@@ -10,8 +10,10 @@ commands :
 !dice
 !embed
 !fn-creative
+!kick
 !ping
 !role
+!say
 !server
 !twitch
 !user
