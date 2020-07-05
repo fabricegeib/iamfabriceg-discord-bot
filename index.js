@@ -36,10 +36,13 @@ client.on('message', message => {
   // console.log(commandName)
 
   // if the commands not exist
-  if (!client.commands.has(commandName)) return;
-
-  const command = client.commands.get(commandName);
+  // if (!client.commands.has(commandName)) return;
   // console.log(command)
+
+  const command = client.commands.get(commandName) || client.commands.find(cmd => cmd.help.aliases && cmd.help.aliases.includes(commandName));
+  console.log(client.commands);
+
+  if (!command) return;
 
   if (command.args && !args.length) {
 		let reply = `You didn't provide any arguments, ${message.author}!`;
