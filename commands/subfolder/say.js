@@ -7,8 +7,8 @@ module.exports.help = {
 	aliases: ['say'],
 	description: 'repeat message',
 	usage: '<message>',
+	cooldown: 10,
 	isUserAdmin: false,
 	permissions: false,
-	args: true,
-	cooldown: 10
+	args: true
 };

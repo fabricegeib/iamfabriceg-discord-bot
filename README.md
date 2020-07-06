@@ -4,13 +4,15 @@ https://iamfabriceg.xyz | https://skidip.team
 
 ---
 
+16 ?
+
 commands :
 ```
 !beep
 !dice
 !embed
 !fn-creative
-!kick
+!kick (if no args)
 !ping
 !role
 !say
