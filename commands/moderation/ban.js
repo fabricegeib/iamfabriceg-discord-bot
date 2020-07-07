@@ -22,7 +22,7 @@ module.exports.help = {
 	name: 'ban',
 	aliases: ['ban'],
 	description: 'Ban a user',
-	usage: '<username> <reason>',
+	usage: '<@username> <reason>',
 	cooldown: 10,
 	isUserAdmin: true,
 	permissions: true,

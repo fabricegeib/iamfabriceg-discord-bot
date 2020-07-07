@@ -36,7 +36,7 @@ client.on('message', message => {
   // console.log(commandName)
   // console.log(args.splice(1).join(' '));
 
-  const user = message.mentions.users.first();
+
 
   // if the commands not exist
   // if (!client.commands.has(commandName)) return;
@@ -47,7 +47,8 @@ client.on('message', message => {
 
   if (!command) return;
 
-  if (command.help.permissions && !message.member.hasPermission('BAN_MEMBERS')) return message.reply(`You don't have the permissions for the command \`${prefix}${command.help.name}\``);
+  // verify if user is admin and have ban permission
+  if (command.help.isUserAdmin && message.guild.member(message.mentions.users.first()).hasPermission('BAN_MEMBERS')) return message.reply(`You cannot use the command \`${prefix}${command.help.name}\` on this user`);
 
   if (command.help.args && !args.length) {
 		let noArgsReply = `You didn't provide any arguments, ${message.author}!`;
@@ -57,8 +58,9 @@ client.on('message', message => {
 		return message.channel.send(noArgsReply);
   }
 
-  // verify if user is admin and have ban permission
-  if (command.help.isUserAdmin && message.guild.member(message.mentions.users.first()).hasPermission('BAN_MEMBERS')) return message.reply(`You cannot use the command \`${prefix}${command.help.name}\` on this user`);
+  
+
+  if (command.help.permissions && !message.member.hasPermission('BAN_MEMBERS')) return message.reply(`You don't have the permissions for the command \`${prefix}${command.help.name}\``);
   
   if (!client.cooldowns.has(command.help.name)) {
     client.cooldowns.set(command.help.name, new Collection());
