@@ -34,7 +34,8 @@ client.on('message', message => {
 
   const commandName = args.shift().toLowerCase();
   // console.log(commandName)
-  console.log(args.splice(1).join(' '));
+  
+  // console.log(args.splice(1).join(' '));
 
 
 
