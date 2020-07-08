@@ -15,8 +15,8 @@ module.exports.run = (client, message, args) => {
 		.setTimestamp()
 		.setFooter(message.author.username, message.author.avatarURL());
 
-		client.channels.cache.get('729669926645923971').send(embed);
-	}
+	client.channels.cache.get('729669926645923971').send(embed);
+}
 
 module.exports.help = {
 	name: 'kick',

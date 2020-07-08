@@ -57,8 +57,10 @@ client.on('message', message => {
 		return message.channel.send(noArgsReply);
   }
 
+  if (command.help.isUserAdmin && !user) return message.reply('You need to mention a user');
+
   // verify if user is admin and have ban permission
-  if (command.help.isUserAdmin && message.guild.member(message.mentions.users.first()).hasPermission('BAN_MEMBERS')) return message.reply(`You cannot use the command \`${prefix}${command.help.name}\` on this user`);
+  if (command.help.isUserAdmin && message.guild.member(user).hasPermission('BAN_MEMBERS')) return message.reply(`You cannot use the command \`${prefix}${command.help.name}\` on this user`);
   
   if (!client.cooldowns.has(command.help.name)) {
     client.cooldowns.set(command.help.name, new Collection());
