@@ -1,11 +1,10 @@
-# SKIDIP (Discord bot)
+# iamBot (Discord bot)
 
 https://iamfabriceg.xyz | https://skidip.team
 
 ---
-
-16 ?
-
+16
+---
 commands :
 ```
 !beep
