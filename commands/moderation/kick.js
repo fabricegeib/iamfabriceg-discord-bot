@@ -22,6 +22,7 @@ module.exports.help = {
 	name: 'kick',
 	aliases: ['kick'],
 	description: 'Kick a user',
+  category: 'moderation',
 	usage: '<@username> <reason>',
 	cooldown: 10,
 	isUserAdmin: true,

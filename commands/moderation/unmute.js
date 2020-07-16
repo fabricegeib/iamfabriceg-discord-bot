@@ -24,6 +24,7 @@ module.exports.help = {
 	name: 'unmute',
 	aliases: ['unmute'],
 	description: 'Unmute a user',
+  category: 'moderation',
 	usage: '<@username> <time>',
 	cooldown: 10,
 	isUserAdmin: true,

@@ -45,6 +45,7 @@ module.exports.help = {
 	name: 'mute',
 	aliases: ['mute'],
 	description: 'Mute a user',
+  category: 'moderation',
 	usage: '<@username> <time>',
 	cooldown: 10,
 	isUserAdmin: true,

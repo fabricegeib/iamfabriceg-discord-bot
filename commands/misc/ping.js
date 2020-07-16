@@ -6,6 +6,7 @@ module.exports.help = {
 	name: 'ping',
 	aliases: ['p', 'uptime'],
 	description: 'Ping!',
+  category: 'misc',
 	usage: '',
 	cooldown: 10,
 	isUserAdmin: false,
