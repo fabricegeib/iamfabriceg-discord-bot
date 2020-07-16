@@ -25,6 +25,7 @@ module.exports.help = {
   name: 'dice',
   aliases: ['d', 'dé', 'dés', 'dices'],
   description: 'Return values of dices',
+  category: 'misc',
   usage: '',
   cooldown: 10,
 	isUserAdmin: false,
