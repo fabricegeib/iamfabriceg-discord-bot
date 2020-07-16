@@ -31,10 +31,10 @@ module.exports.run = async (client, message, args) => {
 	}, ms(muteTime));
 
 	const embed = new MessageEmbed()
-		.setAuthor(`${user.user.username} (${user.id})`)
+		.setAuthor(`${user.user.username} (${user.id})`, user.user.avatarURL())
 		.setColor("#ffa500")
 		.setDescription(`**Action :** Mute\n**Temps :** ${ms(ms(muteTime))}`)
-		.setThumbnail(user.user.avatarURL())
+		.setThumbnail()
 		.setTimestamp()
 		.setFooter(message.author.username, message.author.avatarURL());
 
