@@ -5,7 +5,7 @@ const categoryList = readdirSync('./commands');
 
 
 module.exports.run = (client, message, args) => {
-  console.log(client.commands.filter(cat => cat.help.category === 'misc'));
+  // console.log(client.commands.filter(cat => cat.help.category === 'misc'));
 
 	if (!args.length) {
     const embed = new MessageEmbed()
