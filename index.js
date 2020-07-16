@@ -1,5 +1,5 @@
 const { Client, Collection, MessageManager } = require('discord.js');
-const { prefix, token } = require('./config.json');
+const { token } = require('./config.json');
 const { readdirSync } = require('fs');
 // var junk = require('junk');
 
