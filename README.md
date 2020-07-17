@@ -8,6 +8,9 @@ https://www.youtube.com/watch?v=fuEY1zYnOZE
 https://www.youtube.com/watch?v=UdIzwu7d9LY&t=50s
 ---
 
+- rules-and-info ajouter reactions pour accepter et devenir membre (acces salons bases)
+- roles
+
 commands :
 ```
 !beep
