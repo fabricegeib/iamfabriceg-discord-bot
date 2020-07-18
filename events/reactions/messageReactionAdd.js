@@ -1,4 +1,4 @@
-const { MessageReaction } = require("discord.js");
+const { MessageReaction, MessageEmbed } = require("discord.js");
 
 module.exports = (client, messageReaction, user) => {
     const message = messageReaction.message;
@@ -39,6 +39,16 @@ module.exports = (client, messageReaction, user) => {
                 // message.channel.send(`Le rôle ${fortniteRole.name} a été ajouté !`);
                 break;
         };
+
+        const embedRules = new MessageEmbed()
+            .setAuthor(`${user.username} (${user.id})`)
+            .setColor("#43b581")
+            .setDescription(`**Action :** Accept rules`)
+            .setThumbnail(user.avatarURL())
+            .setTimestamp()
+            .setFooter(message.author.username, message.author.avatarURL());
+
+        client.channels.cache.get('729669926645923971').send(embedRules);
     };
 }
 
