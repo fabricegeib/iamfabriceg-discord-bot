@@ -8,6 +8,11 @@ https://www.youtube.com/watch?v=fuEY1zYnOZE
 https://www.youtube.com/watch?v=UdIzwu7d9LY&t=50s
 ---
 
+pm2 start app.js --watch --name
+pm2 start index.js --watch --name
+
+---
+
 - rules-and-info ajouter reactions pour accepter et devenir membre (acces salons bases)
 - roles
 
