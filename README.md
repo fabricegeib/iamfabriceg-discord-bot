@@ -16,6 +16,11 @@ pm2 start index.js --watch --name
 - rules-and-info ajouter reactions pour accepter et devenir membre (acces salons bases)
 - roles
 
+1. Be respectful to other server members (no homophobia, racism, etc).
+2. No NSFW content.
+3. Only help in #bot-support
+4. Don't ask for bots/provide bots.
+
 commands :
 ```
 !beep
@@ -57,14 +62,33 @@ Twitch Subscriber
 FireTipR (block the add with bot)
 uTip
 
+jeux :
+among us
+brawlhalla
+fall guys
+fifa
 Fortnite
+forza horizon 4
 Grand Thef Auto V
 League of Legends
+prominence poker
+rainbow six siege
 Red Dead Redemption 2
-Valorant
+rocket league
 Teamfight Tactics
+Valorant
 
 Membres
+friends
+gaming friends
+
+food
+artistes
+jeux
+musique
+film serie
+
+clip
 
 ---
 # Embed

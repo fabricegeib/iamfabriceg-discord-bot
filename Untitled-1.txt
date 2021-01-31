@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "c9601e8974c441ed9c4ba89da347e17e",
+    "displayName": "Skertö",
+    "externalAuths": {
+      "psn": {
+        "accountId": "c9601e8974c441ed9c4ba89da347e17e",
+        "type": "psn",
+        "externalAuthId": "7152285521398815992",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "oO-SkertO-oO",
+        "authIds": [
+          {
+            "id": "7152285521398815992",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "af4372c2198d407b8860fed5197f5d4a",
+    "displayName": "Blood.BTW",
+    "externalAuths": {}
+  },
+  {
+    "id": "b6f316ca54b444adb1bbf78ded24de05",
+    "displayName": "DJR91350",
+    "externalAuths": {
+      "psn": {
+        "accountId": "b6f316ca54b444adb1bbf78ded24de05",
+        "type": "psn",
+        "externalAuthId": "6149610147411969688",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "DJR91350",
+        "authIds": [
+          {
+            "id": "6149610147411969688",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "a8e8fdcb0ff74e85ac2310aa6e2428c9",
+    "displayName": "MusOttoman90",
+    "externalAuths": {}
+  },
+  {
+    "id": "e523022c1f824b349ff5c31b0ee29d2c",
+    "displayName": "POP 113",
+    "externalAuths": {
+      "psn": {
+        "accountId": "e523022c1f824b349ff5c31b0ee29d2c",
+        "type": "psn",
+        "externalAuthId": "3465968270280715261",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "popeleup113",
+        "authIds": [
+          {
+            "id": "3465968270280715261",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "b75be31c7c1d4626893e9ee5dbb15844",
+    "displayName": "Happygirl29",
+    "externalAuths": {
+      "psn": {
+        "accountId": "b75be31c7c1d4626893e9ee5dbb15844",
+        "type": "psn",
+        "externalAuthId": "9097457975838822891",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "LaFemmeGameuse",
+        "authIds": [
+          {
+            "id": "9097457975838822891",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1e1c044741c94d8090469229c5614844",
+    "displayName": "Imheisenberg76",
+    "externalAuths": {
+      "nintendo": {
+        "accountId": "1e1c044741c94d8090469229c5614844",
+        "type": "nintendo",
+        "externalAuthId": "lp1_b7d22eb647c951be",
+        "externalAuthIdType": "nsa_id",
+        "authIds": [
+          {
+            "id": "lp1_cb7d2e4b55f48e3a",
+            "type": "nintendo_id"
+          },
+          {
+            "id": "lp1_b7d22eb647c951be",
+            "type": "nsa_id"
+          }
+        ]
+      },
+      "psn": {
+        "accountId": "1e1c044741c94d8090469229c5614844",
+        "type": "psn",
+        "externalAuthId": "5854963622465433008",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "ImHeisenberg76",
+        "authIds": [
+          {
+            "id": "5854963622465433008",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "fb99ea6cc40b4652ad45fe90f5b9dc1d",
+    "displayName": "xSoWnIc",
+    "externalAuths": {
+      "xbl": {
+        "accountId": "fb99ea6cc40b4652ad45fe90f5b9dc1d",
+        "type": "xbl",
+        "externalAuthIdType": "xuid",
+        "externalDisplayName": "xSoWnIc",
+        "authIds": [
+          {
+            "id": "2533274906384420",
+            "type": "xuid"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2127dc355fb442fdb43efc809aac599c",
+    "displayName": "Wrrath_",
+    "externalAuths": {
+      "psn": {
+        "accountId": "2127dc355fb442fdb43efc809aac599c",
+        "type": "psn",
+        "externalAuthId": "231890459475518437",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Wrrath_",
+        "authIds": [
+          {
+            "id": "231890459475518437",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "faf6b2e189044b8ca10978816deec08a",
+    "displayName": "Khada Shine",
+    "externalAuths": {
+      "psn": {
+        "accountId": "faf6b2e189044b8ca10978816deec08a",
+        "type": "psn",
+        "externalAuthId": "8380719508858863221",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Arystar68",
+        "authIds": [
+          {
+            "id": "8380719508858863221",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ed844ac9da28426883bac393f309d546",
+    "displayName": "FloOow-QHS",
+    "externalAuths": {
+      "psn": {
+        "accountId": "ed844ac9da28426883bac393f309d546",
+        "type": "psn",
+        "externalAuthId": "7598523071047418798",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "flow-999",
+        "authIds": [
+          {
+            "id": "7598523071047418798",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "852ccdbae2dd4bdebc9bd979315aa4db",
+    "externalAuths": {
+      "psn": {
+        "accountId": "852ccdbae2dd4bdebc9bd979315aa4db",
+        "type": "psn",
+        "externalAuthId": "2855316317418543101",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "juglrd",
+        "authIds": [
+          {
+            "id": "2855316317418543101",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "1c6a2acd5c414c408cddeda598a68188",
+    "displayName": "Game-Exca-Mix",
+    "externalAuths": {
+      "psn": {
+        "accountId": "1c6a2acd5c414c408cddeda598a68188",
+        "type": "psn",
+        "externalAuthId": "6463714577661561422",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "game__exca__mix",
+        "authIds": [
+          {
+            "id": "6463714577661561422",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "3665f5df84884ce8acc9bb5593c7a83e",
+    "displayName": "Spe6 ム",
+    "externalAuths": {
+      "psn": {
+        "accountId": "3665f5df84884ce8acc9bb5593c7a83e",
+        "type": "psn",
+        "externalAuthId": "3935185229065800775",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "MrSnOOp_GaminG",
+        "authIds": [
+          {
+            "id": "3935185229065800775",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "b9822296590940b8aad8d0489bb5a5a0",
+    "displayName": "Chrisvpk",
+    "externalAuths": {
+      "psn": {
+        "accountId": "b9822296590940b8aad8d0489bb5a5a0",
+        "type": "psn",
+        "externalAuthId": "1319868813509353625",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "chrisvpk",
+        "authIds": [
+          {
+            "id": "1319868813509353625",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "68390d6d008849dea9999a06fb3c4e54",
+    "displayName": "Moglyzer",
+    "links": {},
+    "externalAuths": {
+      "psn": {
+        "accountId": "68390d6d008849dea9999a06fb3c4e54",
+        "type": "psn",
+        "externalAuthId": "5484284715181273430",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "VenzA_FRA",
+        "authIds": [
+          {
+            "id": "5484284715181273430",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "20455039dda54375a628935f879f4610",
+    "displayName": "AzmoR.",
+    "externalAuths": {}
+  },
+  {
+    "id": "b24cc1d2ba1746a7a544af1e52f0e44f",
+    "displayName": "Núggets",
+    "externalAuths": {}
+  },
+  {
+    "id": "11d8751b1c1545b594d28ec8c82f629e",
+    "displayName": "Deathcrac",
+    "links": {},
+    "externalAuths": {
+      "psn": {
+        "accountId": "11d8751b1c1545b594d28ec8c82f629e",
+        "type": "psn",
+        "externalAuthId": "3224564368075756703",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "THE_DE4TH-_92_-",
+        "authIds": [
+          {
+            "id": "3224564368075756703",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "76151cd6893f44e18945c75745368208",
+    "displayName": "Project-cat",
+    "externalAuths": {
+      "psn": {
+        "accountId": "76151cd6893f44e18945c75745368208",
+        "type": "psn",
+        "externalAuthId": "4007419025506276719",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Maitre-Chat_Fkc",
+        "authIds": [
+          {
+            "id": "4007419025506276719",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "74cfae88a6cc42b09bea1fee20b0275b",
+    "displayName": "G0LDeN FrieZeR",
+    "links": {},
+    "externalAuths": {}
+  },
+  {
+    "id": "e9d53b488aed4c23821c9ecc15504a7c",
+    "displayName": "El_Bambina",
+    "externalAuths": {}
+  },
+  {
+    "id": "1f775f8aadcf46568eb3ef281342b715",
+    "displayName": "Utopia75",
+    "externalAuths": {
+      "psn": {
+        "accountId": "1f775f8aadcf46568eb3ef281342b715",
+        "type": "psn",
+        "externalAuthId": "7896375602139325957",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Hatlas_",
+        "authIds": [
+          {
+            "id": "7896375602139325957",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "0ed44e823c664c5e958712f20fb87417",
+    "displayName": "Squeessie",
+    "externalAuths": {
+      "psn": {
+        "accountId": "0ed44e823c664c5e958712f20fb87417",
+        "type": "psn",
+        "externalAuthId": "8323043516358291894",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "the_Sandwich_37",
+        "authIds": [
+          {
+            "id": "8323043516358291894",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5bf9255c349141a9ac487a2df2cac92b",
+    "displayName": "aibnl",
+    "externalAuths": {
+      "psn": {
+        "accountId": "5bf9255c349141a9ac487a2df2cac92b",
+        "type": "psn",
+        "externalAuthId": "3618684970576838785",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "aibnl",
+        "authIds": [
+          {
+            "id": "3618684970576838785",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "8c6218b7934f42efa3c307df324f0075",
+    "displayName": "Ze2_Beatz",
+    "links": {},
+    "externalAuths": {
+      "xbl": {
+        "accountId": "8c6218b7934f42efa3c307df324f0075",
+        "type": "xbl",
+        "externalAuthIdType": "xuid",
+        "externalDisplayName": "XxSkIlLGaMeRxX7",
+        "authIds": [
+          {
+            "id": "2535467479803167",
+            "type": "xuid"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "79d1881c311b4d90a8bbf52418cbd1f8",
+    "displayName": "Ninjou Turtles",
+    "links": {},
+    "externalAuths": {
+      "psn": {
+        "accountId": "79d1881c311b4d90a8bbf52418cbd1f8",
+        "type": "psn",
+        "externalAuthId": "2757087500174425127",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Xx2BadAss2xX",
+        "authIds": [
+          {
+            "id": "2757087500174425127",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "884ce56fb3364113a3e80468ea94d8b7",
+    "displayName": "Pizza_Beuneu",
+    "externalAuths": {
+      "psn": {
+        "accountId": "884ce56fb3364113a3e80468ea94d8b7",
+        "type": "psn",
+        "externalAuthId": "5794434941142648666",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "beuneu",
+        "authIds": [
+          {
+            "id": "5794434941142648666",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "d18a852af52f4bfa868cd97e0a37d777",
+    "externalAuths": {
+      "xbl": {
+        "accountId": "d18a852af52f4bfa868cd97e0a37d777",
+        "type": "xbl",
+        "externalAuthIdType": "xuid",
+        "externalDisplayName": "Sanukiya(1)",
+        "authIds": [
+          {
+            "id": "7039006267824938",
+            "type": "xuid"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "f22f550f63e44c8f902fa3c9a6675def",
+    "displayName": "maximeroi",
+    "externalAuths": {
+      "psn": {
+        "accountId": "f22f550f63e44c8f902fa3c9a6675def",
+        "type": "psn",
+        "externalAuthId": "2758607249993362109",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "maximeroi",
+        "authIds": [
+          {
+            "id": "2758607249993362109",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "f894314d84e24d2ebe513d8ecf32f9b2",
+    "displayName": "κακεгυ.२",
+    "links": {},
+    "externalAuths": {
+      "nintendo": {
+        "accountId": "f894314d84e24d2ebe513d8ecf32f9b2",
+        "type": "nintendo",
+        "externalAuthId": "lp1_8723260b24e4004b",
+        "externalAuthIdType": "nsa_id",
+        "authIds": [
+          {
+            "id": "lp1_00443c9704ed863d",
+            "type": "nintendo_id"
+          },
+          {
+            "id": "lp1_8723260b24e4004b",
+            "type": "nsa_id"
+          }
+        ]
+      },
+      "psn": {
+        "accountId": "f894314d84e24d2ebe513d8ecf32f9b2",
+        "type": "psn",
+        "externalAuthId": "571295529752930232",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "nL_Kakeru",
+        "authIds": [
+          {
+            "id": "571295529752930232",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "980b779e3d4646f3bc0921cd5a618ce7",
+    "displayName": "ALcATrAZ-_-KsA-_",
+    "externalAuths": {
+      "nintendo": {
+        "accountId": "980b779e3d4646f3bc0921cd5a618ce7",
+        "type": "nintendo",
+        "externalAuthId": "lp1_ff1f45b7eb75e5dc",
+        "externalAuthIdType": "nsa_id",
+        "authIds": [
+          {
+            "id": "lp1_041fa4f24c3adcbd",
+            "type": "nintendo_id"
+          },
+          {
+            "id": "lp1_ff1f45b7eb75e5dc",
+            "type": "nsa_id"
+          }
+        ]
+      },
+      "psn": {
+        "accountId": "980b779e3d4646f3bc0921cd5a618ce7",
+        "type": "psn",
+        "externalAuthId": "7339985622175533253",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "ALcATrAZ-_-KsA-_",
+        "authIds": [
+          {
+            "id": "7339985622175533253",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "4e58f9c2f46d4137939e338964e53d6e",
+    "displayName": "hmoby_8",
+    "externalAuths": {
+      "psn": {
+        "accountId": "4e58f9c2f46d4137939e338964e53d6e",
+        "type": "psn",
+        "externalAuthId": "7078344051135919003",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "SHAHY_0",
+        "authIds": [
+          {
+            "id": "7078344051135919003",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "b13455858b314422a29e2ff7f7e81f68",
+    "displayName": "yougattaga33",
+    "externalAuths": {
+      "psn": {
+        "accountId": "b13455858b314422a29e2ff7f7e81f68",
+        "type": "psn",
+        "externalAuthId": "8691917079578893099",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "yougattaga33",
+        "authIds": [
+          {
+            "id": "8691917079578893099",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2ff02278134e414b89f6117825e1c873",
+    "displayName": "jeron22",
+    "externalAuths": {
+      "psn": {
+        "accountId": "2ff02278134e414b89f6117825e1c873",
+        "type": "psn",
+        "externalAuthId": "5298124810540815543",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "jeron22",
+        "authIds": [
+          {
+            "id": "5298124810540815543",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "e358a534c7ab44a6ba818da532f5deb2",
+    "displayName": "momomutu",
+    "externalAuths": {
+      "psn": {
+        "accountId": "e358a534c7ab44a6ba818da532f5deb2",
+        "type": "psn",
+        "externalAuthId": "5354510217134554929",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "momomutu",
+        "authIds": [
+          {
+            "id": "5354510217134554929",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "784e669f97174a4d8c17bb9f25e7298f",
+    "displayName": "YourSo_BadG",
+    "externalAuths": {
+      "psn": {
+        "accountId": "784e669f97174a4d8c17bb9f25e7298f",
+        "type": "psn",
+        "externalAuthId": "2709823870551226772",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "YourSo_BadG",
+        "authIds": [
+          {
+            "id": "2709823870551226772",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "65c9af4bd27544b3951e47dde6860d36",
+    "displayName": "Jdreke",
+    "externalAuths": {
+      "nintendo": {
+        "accountId": "65c9af4bd27544b3951e47dde6860d36",
+        "type": "nintendo",
+        "externalAuthId": "lp1_2369855642124140",
+        "externalAuthIdType": "nsa_id",
+        "authIds": [
+          {
+            "id": "lp1_f5fe4c106c5af8cc",
+            "type": "nintendo_id"
+          },
+          {
+            "id": "lp1_2369855642124140",
+            "type": "nsa_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5ac2f433a60b420c8de1fe087c98f31c",
+    "displayName": "TheQueenOfAshes",
+    "externalAuths": {
+      "psn": {
+        "accountId": "5ac2f433a60b420c8de1fe087c98f31c",
+        "type": "psn",
+        "externalAuthId": "3102076962287543436",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "TheQueenOfAshes",
+        "authIds": [
+          {
+            "id": "3102076962287543436",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "5f0f87ddc5fe43f881184d9b46cb426b",
+    "displayName": "Elecktriz",
+    "externalAuths": {
+      "psn": {
+        "accountId": "5f0f87ddc5fe43f881184d9b46cb426b",
+        "type": "psn",
+        "externalAuthId": "8166899878231437740",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "StreaMuGz",
+        "authIds": [
+          {
+            "id": "8166899878231437740",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "57b597857b64418ea30909f0a029c505",
+    "displayName": "CastorFury44",
+    "externalAuths": {}
+  },
+  {
+    "id": "0620e8b3c1dd45f08682412e80575561",
+    "displayName": "mairondu10",
+    "links": {},
+    "externalAuths": {
+      "nintendo": {
+        "accountId": "0620e8b3c1dd45f08682412e80575561",
+        "type": "nintendo",
+        "externalAuthId": "lp1_f9b573c14b5503ea",
+        "externalAuthIdType": "nintendo_id",
+        "authIds": [
+          {
+            "id": "lp1_acbc24eaa01bc5a8",
+            "type": "nintendo_id"
+          },
+          {
+            "id": "lp1_f9b573c14b5503ea",
+            "type": "nsa_id"
+          }
+        ]
+      },
+      "psn": {
+        "accountId": "0620e8b3c1dd45f08682412e80575561",
+        "type": "psn",
+        "externalAuthId": "7374321734649800038",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "mairondu10",
+        "authIds": [
+          {
+            "id": "7374321734649800038",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "572e256536d64ca98ca011593996e5ec",
+    "displayName": "Josephir",
+    "externalAuths": {}
+  },
+  {
+    "id": "20afe3a8c9f248a78d6d2b240a291a2d",
+    "externalAuths": {
+      "psn": {
+        "accountId": "20afe3a8c9f248a78d6d2b240a291a2d",
+        "type": "psn",
+        "externalAuthId": "3366863116725470744",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Kovydu",
+        "authIds": [
+          {
+            "id": "3366863116725470744",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "b5eb956e3d0247829fe91b21790b4e2a",
+    "displayName": "ilan152",
+    "externalAuths": {
+      "psn": {
+        "accountId": "b5eb956e3d0247829fe91b21790b4e2a",
+        "type": "psn",
+        "externalAuthId": "3058974783574792046",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "ilan152",
+        "authIds": [
+          {
+            "id": "3058974783574792046",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "24923b03486e48808800742ef1cfde20",
+    "displayName": "Zollyd71",
+    "externalAuths": {
+      "psn": {
+        "accountId": "24923b03486e48808800742ef1cfde20",
+        "type": "psn",
+        "externalAuthId": "398160539924307347",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "ZOLLYd71",
+        "authIds": [
+          {
+            "id": "398160539924307347",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "6f4e4386137244998009689ab97db8b5",
+    "displayName": "Jim-mesrine",
+    "links": {},
+    "externalAuths": {
+      "psn": {
+        "accountId": "6f4e4386137244998009689ab97db8b5",
+        "type": "psn",
+        "externalAuthId": "4597915719477968596",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "jim-jr33",
+        "authIds": [
+          {
+            "id": "4597915719477968596",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "2fd09b7e1f8e4088aa2d227c48bfb1f6",
+    "displayName": "QHS BIGGI",
+    "externalAuths": {
+      "psn": {
+        "accountId": "2fd09b7e1f8e4088aa2d227c48bfb1f6",
+        "type": "psn",
+        "externalAuthId": "699686252889735909",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "bigbossrap69",
+        "authIds": [
+          {
+            "id": "699686252889735909",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "dd10e5198b264d879ae85661b2da859f",
+    "displayName": "Pics_a_choux",
+    "externalAuths": {
+      "psn": {
+        "accountId": "dd10e5198b264d879ae85661b2da859f",
+        "type": "psn",
+        "externalAuthId": "6054476264808793872",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "FT_MOI_DES_PATTE",
+        "authIds": [
+          {
+            "id": "6054476264808793872",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "0bbdbf6091f24f6d974ef375bde71a1e",
+    "displayName": "Suralie",
+    "externalAuths": {}
+  },
+  {
+    "id": "5642314750b74538961eaf22fe023e0f",
+    "externalAuths": {
+      "psn": {
+        "accountId": "5642314750b74538961eaf22fe023e0f",
+        "type": "psn",
+        "externalAuthId": "1460177056267854052",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "chamz77",
+        "authIds": [
+          {
+            "id": "1460177056267854052",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "f9cf4ffd69e647899d3bb43ab4d8190c",
+    "displayName": "GreekGhost019",
+    "externalAuths": {
+      "psn": {
+        "accountId": "f9cf4ffd69e647899d3bb43ab4d8190c",
+        "type": "psn",
+        "externalAuthId": "4736508175415136183",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "GreekGhost019",
+        "authIds": [
+          {
+            "id": "4736508175415136183",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "69de60f677594f429705adef2c2e5020",
+    "displayName": "Twitch_Oblivium",
+    "externalAuths": {}
+  },
+  {
+    "id": "f4a7d8fa2914471aa5c30cf5873d44f7",
+    "displayName": "ZePequegno11",
+    "externalAuths": {
+      "nintendo": {
+        "accountId": "f4a7d8fa2914471aa5c30cf5873d44f7",
+        "type": "nintendo",
+        "externalAuthId": "lp1_3373439569b94614",
+        "externalAuthIdType": "nsa_id",
+        "authIds": [
+          {
+            "id": "lp1_11f7f3dc84495aa2",
+            "type": "nintendo_id"
+          },
+          {
+            "id": "lp1_3373439569b94614",
+            "type": "nsa_id"
+          }
+        ]
+      },
+      "psn": {
+        "accountId": "f4a7d8fa2914471aa5c30cf5873d44f7",
+        "type": "psn",
+        "externalAuthId": "7025529035061395599",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Ohce1-",
+        "authIds": [
+          {
+            "id": "7025529035061395599",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "426400d2c80d449394990644fbb0b593",
+    "externalAuths": {
+      "psn": {
+        "accountId": "426400d2c80d449394990644fbb0b593",
+        "type": "psn",
+        "externalAuthId": "2849643294024095966",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Biscotte330",
+        "authIds": [
+          {
+            "id": "2849643294024095966",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ffd4dac76e35437eb0f08d2c2375a1f7",
+    "displayName": "Skurt_Sick",
+    "links": {},
+    "externalAuths": {
+      "psn": {
+        "accountId": "ffd4dac76e35437eb0f08d2c2375a1f7",
+        "type": "psn",
+        "externalAuthId": "8701437683381438287",
+        "externalAuthIdType": "psn_user_id",
+        "externalDisplayName": "Sky_wars25",
+        "authIds": [
+          {
+            "id": "8701437683381438287",
+            "type": "psn_user_id"
+          }
+        ]
+      }
+    }
+  }
+]

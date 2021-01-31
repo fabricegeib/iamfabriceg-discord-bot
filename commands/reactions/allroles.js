@@ -27,31 +27,31 @@ module.exports.run = (client, message, args) => {
             `
         );
 
-        // ${gtavEmoji} - ${gtavRole.toString()}
+    // ${gtavEmoji} - ${gtavRole.toString()}
 
-        // message.channel.send(embed).then(async msg => {
-        //     await msg.react(fortniteEmoji);
-        //     await msg.react(gtavEmoji);
-        //     await msg.react(tftEmoji);
-        // })
+    // message.channel.send(embed).then(async msg => {
+    //     await msg.react(fortniteEmoji);
+    //     await msg.react(gtavEmoji);
+    //     await msg.react(tftEmoji);
+    // })
 
-	    client.channels.cache.get('733454608998858762').send(embed).then(async msg => { // channel roles
-            await msg.react(fortniteEmoji);
-            await msg.react(leagueoflegendsEmoji);
-            await msg.react(tftEmoji);
-            await msg.react(valorantEmoji);
-        })
+    client.channels.cache.get('733454608998858762').send(embed).then(async msg => { // channel roles
+        await msg.react(fortniteEmoji);
+        await msg.react(leagueoflegendsEmoji);
+        await msg.react(tftEmoji);
+        await msg.react(valorantEmoji);
+    })
 
 }
 
 module.exports.help = {
-	name: 'allroles',
-	aliases: ['roles'],
-	description: 'List of all roles',
+    name: 'allroles',
+    aliases: ['roles'],
+    description: 'List of all roles',
     category: 'reactions',
-	usage: '',
-	cooldown: 10,
-	isUserAdmin: false,
-	permissions: true,
-	args: false
+    usage: '',
+    cooldown: 10,
+    isUserAdmin: false,
+    permissions: true,
+    args: false
 };
