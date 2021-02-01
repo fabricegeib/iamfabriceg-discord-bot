@@ -6,11 +6,12 @@ module.exports = (client, messageReaction, user) => {
     const emoji = messageReaction.emoji.name;
     const channel = message.guild.channels.cache.find(c => c.id === '733454608998858762'); // channel roles
     // const channel = message.guild.channels.cache.find(c => c.id === '729669926645923971'); // channel logs
-    const channelRules = message.guild.channels.cache.find(c => c.id === '567436905294200832');
+    const channelRules = message.guild.channels.cache.find(c => c.id === '802868621609140225'); // channel rules
 
     const fortniteRole = message.guild.roles.cache.get("722561307903262831");
     const gtavRole = message.guild.roles.cache.get("722565846383329282");
     const leagueoflegendsRole = message.guild.roles.cache.get("724002905832685649");
+    const rocketleagueRole = message.guild.roles.cache.get("802663319634575362");
     const tftRole = message.guild.roles.cache.get("724003313296605276");
     const valorantRole = message.guild.roles.cache.get("724002842204962889");
     const membresRole = message.guild.roles.cache.get("567429745604689921");
@@ -30,6 +31,10 @@ module.exports = (client, messageReaction, user) => {
             case "leagueoflegends":
                 member.roles.remove(leagueoflegendsRole);
                 // message.channel.send(`Le rôle ${gtavRole.name} a été supprimé !`);
+                break;
+            case "rocketleague":
+                member.roles.remove(rocketleagueRole);
+                // message.channel.send(`Le rôle ${tftRole.name} a été supprimé !`);
                 break;
             case "tft":
                 member.roles.remove(tftRole);
