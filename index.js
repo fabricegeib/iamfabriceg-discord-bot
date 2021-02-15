@@ -3,7 +3,9 @@ const { token } = require('./config.json');
 const { readdirSync } = require('fs');
 // var junk = require('junk');
 
-const client = new Client();
+const client = new Client({
+  ws: { intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_MESSAGE_REACTIONS", "DIRECT_MESSAGES"] }
+});
 ["commands", "cooldowns"].forEach(x => client[x] = new Collection());
 
 const loadCommands = (dir = "./commands/") => {
