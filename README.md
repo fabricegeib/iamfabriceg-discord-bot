@@ -44,7 +44,8 @@ You need a `config.json`
 
 ```
 {
-	"token": "yourToken"
+	"prefix": "!",
+    "token": "your-token-goes-here"
 }
 ```
 
