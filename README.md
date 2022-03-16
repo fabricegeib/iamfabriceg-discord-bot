@@ -1,31 +1,10 @@
 # iamBot (Discord Bot)
 
-https://iamfabriceg.xyz
+A discord bot for [iamfabriceg.xyz](https://iamfabriceg.xyz) made by [Fabrice Geib](https://fabricegeib.com)
 
-<!-- https://skidip.team -->
+Add the bot (administrator permission) on your discord server with this [link](https://discord.com/api/oauth2/authorize?client_id=580073418968530973&permissions=8&scope=bot)
 
----
-
-https://www.youtube.com/watch?v=fuEY1zYnOZE
-23
-https://www.youtube.com/watch?v=UdIzwu7d9LY&t=50s
-
----
-
-pm2 start app.js --watch --name
-pm2 start index.js --watch --name
-
----
-
-- rules-and-info ajouter reactions pour accepter et devenir membre (acces salons bases)
-- roles
-
-1. Be respectful to other server members (no homophobia, racism, etc).
-2. No NSFW content.
-3. Only help in #bot-support
-4. Don't ask for bots/provide bots.
-
-commands :
+## Commands :
 
 ```
 !beep
@@ -35,6 +14,7 @@ commands :
 !kick (if no args)
 !ping
 !role
+!rules-and-info
 !say
 !server
 !twitch
@@ -55,49 +35,112 @@ Commande chargée: user-info
 Commande chargée: user
 ```
 
-# Roles
+- rules-and-info ajouter reactions pour accepter et devenir membre (acces salons bases)
+- roles
 
-Live
+## Installation and start
 
-Twitch Subscriber: Tier 3
-Twitch Subscriber: Tier 2
-Twitch Subscriber: Tier 1
-Twitch Subscriber
+You need a `config.json`
 
-FireTipR (block the add with bot)
-uTip
+```
+{
+	"token": "yourToken"
+}
+```
 
-jeux :
-among us
-brawlhalla
-fall guys
-fifa
-Fortnite
-forza horizon 4
-Grand Thef Auto V
-League of Legends
-prominence poker
-rainbow six siege
-Red Dead Redemption 2
-rocket league
-Teamfight Tactics
-Valorant
+### discord.js
 
-Membres
-friends
-gaming friends
+```
+npm install discord.js
+# or
+yarn add discord.js
+```
 
-food
-artistes
-jeux
-musique
-film serie
+### NPM install
 
-clip
+```
+npm install
+
+npm install dotenv
+```
+
+### PM2
+
+```
+npm install pm2
+
+pm2 start app.js --watch --name app
+pm2 start index.js --watch --name discord
+```
+
+## XXX
+
+1. Be respectful to other server members (no homophobia, racism, etc).
+2. No NSFW content.
+3. Only help in #bot-support
+4. Don't ask for bots/provide bots.
+
+## Resources
+
+- https://discord.com/developers/applications
+- https://discordapp.com/developers/docs/intro
+- https://discordapp.com/developers/applications/
+
+- https://discord.js.org/
+- https://discordjs.guide/
+- https://discordapi.com/permissions.html
+- https://www.youtube.com/watch?v=fuEY1zYnOZE
+- https://www.youtube.com/watch?v=UdIzwu7d9LY&t=50s
+
+
+- New Application => CREATE AN APPLICATION
+- Bot => Build-A-Bot => PUBLIC BOT (True)
+
+<!-- https://skidip.team -->
 
 ---
 
-# Embed
+## Roles
+
+- Live
+
+- Twitch Subscriber: Tier 3
+- Twitch Subscriber: Tier 2
+- Twitch Subscriber: Tier 1
+- Twitch Subscriber
+
+- FireTipR (block the add with bot)
+- uTip
+
+- jeux :
+- among us
+- brawlhalla
+- fall guys
+- fifa
+- Fortnite
+- forza horizon 4
+- Grand Thef Auto V
+- League of Legends
+- prominence poker
+- rainbow six siege
+- Red Dead Redemption 2
+- rocket league
+- Teamfight Tactics
+- Valorant
+
+- Membres
+- friends
+- gaming friends
+
+- food
+- artistes
+- jeux
+- musique
+- film serie
+
+- clip
+
+## Embed
 
 {
 "embeds":[
@@ -151,19 +194,3 @@ clip
 
 .export FortniteGame/Content/Athena/Items/Cosmetics/LoadingScreens/LSID_053_SupplyLlama
 .export FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MechanicalEngineer1H
-
----
-
-https://discordapp.com/developers/docs/intro
-
-https://discordapp.com/developers/applications/
-
-New Application => CREATE AN APPLICATION
-
-Bot => Build-A-Bot => PUBLIC BOT (True)
-
-https://discordapi.com/permissions.html
-
-https://discord.js.org/
-
-`yarn add discord.js`
