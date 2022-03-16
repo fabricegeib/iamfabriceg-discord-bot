@@ -1,11 +1,15 @@
-# iamBot (Discord bot)
+# iamBot (Discord Bot)
 
-https://iamfabriceg.xyz | https://skidip.team
+https://iamfabriceg.xyz
+
+<!-- https://skidip.team -->
 
 ---
+
 https://www.youtube.com/watch?v=fuEY1zYnOZE
 23
 https://www.youtube.com/watch?v=UdIzwu7d9LY&t=50s
+
 ---
 
 pm2 start app.js --watch --name
@@ -22,6 +26,7 @@ pm2 start index.js --watch --name
 4. Don't ask for bots/provide bots.
 
 commands :
+
 ```
 !beep
 !dice
@@ -91,57 +96,59 @@ film serie
 clip
 
 ---
+
 # Embed
 
 {
-   "embeds":[
-      {
-         "title":"<<< {{ChannelName}} is live on Twitch!>>>",
-         "url":"<<<{{ChannelUrl}}>>>",
-         "description":"<<<{{Game}}>>>"
-      }
-   ]
+"embeds":[
+{
+"title":"<<< {{ChannelName}} is live on Twitch!>>>",
+"url":"<<<{{ChannelUrl}}>>>",
+"description":"<<<{{Game}}>>>"
+}
+]
 }
 
 {
-   "embeds":[
-      {
-         "title":"<<< {{ChannelName}} now follow you Twitch!>>>"
-      }
-   ]
+"embeds":[
+{
+"title":"<<< {{ChannelName}} now follow you Twitch!>>>"
+}
+]
 }
 
 {
-  "content": "{{ChannelName}} went live on Twitch",
-  "embeds": [{
-    "title": "{{ChannelUrl}}",
-    "url": "{{ChannelUrl}}",
-    "color": 6570404,
-    "footer": {
-      "text": "{{CreatedAt}}"
-    },
-    "image": {
-      "url": "{{StreamPreview}}"
-    },
-    "author": {
-      "name": "{{ChannelName}} is now streaming"
-    },
-    "fields": [
-      {
-        "name": "Playing",
-        "value": "{{Game}}",
-        "inline": true
-      },
-      {
-        "name": "Started at (streamer timezone)",
-        "value": "{{CreatedAt}}",
-        "inline": true
-      }
-    ]
-  }]
+"content": "{{ChannelName}} went live on Twitch",
+"embeds": [{
+"title": "{{ChannelUrl}}",
+"url": "{{ChannelUrl}}",
+"color": 6570404,
+"footer": {
+"text": "{{CreatedAt}}"
+},
+"image": {
+"url": "{{StreamPreview}}"
+},
+"author": {
+"name": "{{ChannelName}} is now streaming"
+},
+"fields": [
+{
+"name": "Playing",
+"value": "{{Game}}",
+"inline": true
+},
+{
+"name": "Started at (streamer timezone)",
+"value": "{{CreatedAt}}",
+"inline": true
+}
+]
+}]
 }
 
 ---
+
 .export FortniteGame/Content/Athena/Items/Cosmetics/LoadingScreens/LSID_053_SupplyLlama
 .export FortniteGame/Content/Athena/Items/Weapons/WID_Harvest_Pickaxe_MechanicalEngineer1H
 
@@ -159,4 +166,4 @@ https://discordapi.com/permissions.html
 
 https://discord.js.org/
 
-```yarn add discord.js```
+`yarn add discord.js`
