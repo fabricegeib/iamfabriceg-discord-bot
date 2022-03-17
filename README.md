@@ -114,20 +114,20 @@ pm2 start index.js --watch --name discord
 - uTip
 
 - jeux :
-- among us
-- brawlhalla
-- fall guys
-- fifa
-- Fortnite
-- forza horizon 4
-- Grand Thef Auto V
-- League of Legends
-- prominence poker
-- rainbow six siege
-- Red Dead Redemption 2
-- rocket league
-- Teamfight Tactics
-- Valorant
+	- among us
+	- brawlhalla
+	- fall guys
+	- fifa
+	- Fortnite
+	- forza horizon 4
+	- Grand Thef Auto V
+	- League of Legends
+	- prominence poker
+	- rainbow six siege
+	- Red Dead Redemption 2
+	- rocket league
+	- Teamfight Tactics
+	- Valorant
 
 - Membres
 - friends
@@ -155,7 +155,7 @@ pm2 start index.js --watch --name discord
 }
 ```
 
-```
+```json
 {
 	"embeds": [
 		{
@@ -165,7 +165,7 @@ pm2 start index.js --watch --name discord
 }
 ```
 
-```
+```json
 {
 	"content": "{{ChannelName}} went live on Twitch",
 	"embeds": [
