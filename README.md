@@ -74,7 +74,7 @@ pm2 start app.js --watch --name app
 pm2 start index.js --watch --name discord
 ```
 
-## XXX
+## Rules
 
 1. Be respectful to other server members (no homophobia, racism, etc).
 2. No NSFW content.
@@ -143,53 +143,61 @@ pm2 start index.js --watch --name discord
 
 ## Embed
 
+```json
 {
-"embeds":[
-{
-"title":"<<< {{ChannelName}} is live on Twitch!>>>",
-"url":"<<<{{ChannelUrl}}>>>",
-"description":"<<<{{Game}}>>>"
+	"embeds": [
+		{
+			"title": "<<< {{ChannelName}} is live on Twitch!>>>",
+			"url": "<<<{{ChannelUrl}}>>>",
+			"description": "<<<{{Game}}>>>"
+		}
+	]
 }
-]
-}
+```
 
+```
 {
-"embeds":[
-{
-"title":"<<< {{ChannelName}} now follow you Twitch!>>>"
+	"embeds": [
+		{
+			"title": "<<< {{ChannelName}} now follow you Twitch!>>>"
+		}
+	]
 }
-]
-}
+```
 
+```
 {
-"content": "{{ChannelName}} went live on Twitch",
-"embeds": [{
-"title": "{{ChannelUrl}}",
-"url": "{{ChannelUrl}}",
-"color": 6570404,
-"footer": {
-"text": "{{CreatedAt}}"
-},
-"image": {
-"url": "{{StreamPreview}}"
-},
-"author": {
-"name": "{{ChannelName}} is now streaming"
-},
-"fields": [
-{
-"name": "Playing",
-"value": "{{Game}}",
-"inline": true
-},
-{
-"name": "Started at (streamer timezone)",
-"value": "{{CreatedAt}}",
-"inline": true
+	"content": "{{ChannelName}} went live on Twitch",
+	"embeds": [
+		{
+			"title": "{{ChannelUrl}}",
+			"url": "{{ChannelUrl}}",
+			"color": 6570404,
+			"footer": {
+				"text": "{{CreatedAt}}"
+			},
+			"image": {
+				"url": "{{StreamPreview}}"
+			},
+			"author": {
+				"name": "{{ChannelName}} is now streaming"
+			},
+			"fields": [
+				{
+					"name": "Playing",
+					"value": "{{Game}}",
+					"inline": true
+				},
+				{
+					"name": "Started at (streamer timezone)",
+					"value": "{{CreatedAt}}",
+					"inline": true
+				}
+			]
+		}
+	]
 }
-]
-}]
-}
+```
 
 ---
 
