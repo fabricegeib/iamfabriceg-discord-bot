@@ -1,6 +1,6 @@
 # iamBot (Discord Bot)
 
-A discord bot for [iamfabriceg.xyz](https://iamfabriceg.xyz) made by [Fabrice Geib](https://fabricegeib.com)
+A discord bot for [iamfabriceg.xyz](https://iamfabriceg.xyz) made by [Fabrice Geib](https://fabricegeib.com) with [comfy.js](https://github.com/instafluff/ComfyJS) and [discord.js](https://discord.js.org/#/)
 
 Add the bot (administrator permission) on your discord server with this [link](https://discord.com/api/oauth2/authorize?client_id=580073418968530973&permissions=8&scope=bot)
 
