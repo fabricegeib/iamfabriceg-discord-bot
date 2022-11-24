@@ -1,12 +1,15 @@
 {
   "dependencies": {
+    "@discordjs/voice": "^0.13.0",
     "comfy.js": "^1.1.0",
-    "discord.js": "^12.1.1",
+    "discord.js": "^14.6.0",
     "dotenv": "^8.2.0",
-    "eslint": "^8.11.0",
     "fs": "^0.0.1-security",
     "junk": "^3.1.0",
     "mongoose": "^5.11.14",
     "ms": "^2.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
   }
 }

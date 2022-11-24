@@ -1,8 +1,10 @@
-# iamBot (Discord Bot)
+# iamfabricegBot (Discord Bot)
 
 A discord bot for [iamfabriceg.xyz](https://iamfabriceg.xyz) made by [Fabrice Geib](https://fabricegeib.com) with [comfy.js](https://github.com/instafluff/ComfyJS) and [discord.js](https://discord.js.org/#/)
 
 Add the bot (administrator permission) on your discord server with this [link](https://discord.com/api/oauth2/authorize?client_id=580073418968530973&permissions=8&scope=bot)
+
+https://discordjs.guide/
 
 ## Commands :
 
@@ -37,6 +39,16 @@ Commande chargée: user
 
 - rules-and-info ajouter reactions pour accepter et devenir membre (acces salons bases)
 - roles
+
+## Upgrade discord.js@12.5.3 to discord.js@14.6.0
+
+```
+npm list discord.js
+
+npm uninstall discord.js
+
+npm install discord.js @discordjs/voice
+```
 
 ## Installation and start
 
@@ -93,7 +105,6 @@ pm2 start index.js --watch --name discord
 - https://www.youtube.com/watch?v=fuEY1zYnOZE
 - https://www.youtube.com/watch?v=UdIzwu7d9LY&t=50s
 
-
 - New Application => CREATE AN APPLICATION
 - Bot => Build-A-Bot => PUBLIC BOT (True)
 
@@ -114,20 +125,21 @@ pm2 start index.js --watch --name discord
 - uTip
 
 - jeux :
-	- among us
-	- brawlhalla
-	- fall guys
-	- fifa
-	- Fortnite
-	- forza horizon 4
-	- Grand Thef Auto V
-	- League of Legends
-	- prominence poker
-	- rainbow six siege
-	- Red Dead Redemption 2
-	- rocket league
-	- Teamfight Tactics
-	- Valorant
+
+  - among us
+  - brawlhalla
+  - fall guys
+  - fifa
+  - Fortnite
+  - forza horizon 4
+  - Grand Thef Auto V
+  - League of Legends
+  - prominence poker
+  - rainbow six siege
+  - Red Dead Redemption 2
+  - rocket league
+  - Teamfight Tactics
+  - Valorant
 
 - Membres
 - friends
@@ -145,57 +157,57 @@ pm2 start index.js --watch --name discord
 
 ```json
 {
-	"embeds": [
-		{
-			"title": "<<< {{ChannelName}} is live on Twitch!>>>",
-			"url": "<<<{{ChannelUrl}}>>>",
-			"description": "<<<{{Game}}>>>"
-		}
-	]
+  "embeds": [
+    {
+      "title": "<<< {{ChannelName}} is live on Twitch!>>>",
+      "url": "<<<{{ChannelUrl}}>>>",
+      "description": "<<<{{Game}}>>>"
+    }
+  ]
 }
 ```
 
 ```json
 {
-	"embeds": [
-		{
-			"title": "<<< {{ChannelName}} now follow you Twitch!>>>"
-		}
-	]
+  "embeds": [
+    {
+      "title": "<<< {{ChannelName}} now follow you Twitch!>>>"
+    }
+  ]
 }
 ```
 
 ```json
 {
-	"content": "{{ChannelName}} went live on Twitch",
-	"embeds": [
-		{
-			"title": "{{ChannelUrl}}",
-			"url": "{{ChannelUrl}}",
-			"color": 6570404,
-			"footer": {
-				"text": "{{CreatedAt}}"
-			},
-			"image": {
-				"url": "{{StreamPreview}}"
-			},
-			"author": {
-				"name": "{{ChannelName}} is now streaming"
-			},
-			"fields": [
-				{
-					"name": "Playing",
-					"value": "{{Game}}",
-					"inline": true
-				},
-				{
-					"name": "Started at (streamer timezone)",
-					"value": "{{CreatedAt}}",
-					"inline": true
-				}
-			]
-		}
-	]
+  "content": "{{ChannelName}} went live on Twitch",
+  "embeds": [
+    {
+      "title": "{{ChannelUrl}}",
+      "url": "{{ChannelUrl}}",
+      "color": 6570404,
+      "footer": {
+        "text": "{{CreatedAt}}"
+      },
+      "image": {
+        "url": "{{StreamPreview}}"
+      },
+      "author": {
+        "name": "{{ChannelName}} is now streaming"
+      },
+      "fields": [
+        {
+          "name": "Playing",
+          "value": "{{Game}}",
+          "inline": true
+        },
+        {
+          "name": "Started at (streamer timezone)",
+          "value": "{{CreatedAt}}",
+          "inline": true
+        }
+      ]
+    }
+  ]
 }
 ```
 
