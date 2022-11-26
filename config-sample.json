@@ -1,4 +1,6 @@
 {
   "prefix": "!",
-  "token": "your-token-goes-here"
+  "token": "your-token-goes-here",
+  "clientdId": "your-client-id-here",
+  "guildId": "your-guild-id-here"
 }
