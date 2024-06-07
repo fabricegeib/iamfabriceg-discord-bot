@@ -6,6 +6,8 @@ Add the bot (administrator permission) on your discord server with this [link](h
 
 https://discordjs.guide/
 
+https://discord.com/developers/applications
+
 ## Commands :
 
 ```
@@ -57,9 +59,21 @@ You need a `config.json`
 ```
 {
 	"prefix": "!",
-    "token": "your-token-goes-here"
+  "token": "your_token_goes_here",
+  "clientId": "your_clientId_goes_here",
+  "guildId": "your_guildId_goes_here"
 }
 ```
+
+or a `.env`
+
+```
+DISCORD_TOKEN=your_token_goes_here
+```
+
+to charge new commands `node .\deploy-commands.js`
+
+to start `node .`
 
 ### discord.js
 

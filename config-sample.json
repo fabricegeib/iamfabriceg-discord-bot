@@ -1,4 +1,6 @@
 {
   "prefix": "!",
-  "token": "your-token-goes-here"
+  "token": "your_token_goes_here",
+  "clientId": "your_clientId_goes_here",
+  "guildId": "your_guildId_goes_here"
 }
