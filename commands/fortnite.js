@@ -3,7 +3,7 @@ const https = require("https");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("api")
+    .setName("fortnite")
     .setDescription("Affiche les résultats de votre API")
     .addStringOption((option) => option.setName("query").setDescription("Nom ou ID").setRequired(true)),
   async execute(interaction) {

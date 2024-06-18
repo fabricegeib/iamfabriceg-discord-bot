@@ -17,8 +17,8 @@ for (const file of commandFiles) {
   client.commands.set(command.data.name, command);
 }
 
-client.once(Events.ClientReady, () => {
-  console.log("Ready!");
+client.once(Events.ClientReady, readyClient => {
+  console.log(`Ready! Logged in as ${readyClient.user.tag}`);
 });
 
 client.on(Events.InteractionCreate, async (interaction) => {

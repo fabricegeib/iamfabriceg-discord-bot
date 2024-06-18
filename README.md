@@ -4,6 +4,8 @@ A discord bot for [iamfabriceg.xyz](https://iamfabriceg.xyz) made by [Fabrice Ge
 
 Add the bot (administrator permission) on your discord server with this [link](https://discord.com/api/oauth2/authorize?client_id=580073418968530973&permissions=8&scope=bot)
 
+https://discord.com/oauth2/authorize?client_id=580073418968530973&permissions=8&scope=bot+applications.commands
+
 https://discordjs.guide/
 
 https://discord.com/developers/applications
