@@ -1,50 +1,76 @@
-const { SlashCommandBuilder } = require("@discordjs/builders");
-const https = require("https");
+const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("fortnite")
-    .setDescription("Affiche les résultats de votre API")
-    .addStringOption((option) => option.setName("query").setDescription("Nom ou ID").setRequired(true)),
+    .setDescription("Informations sur les modes de jeu")
+    .addStringOption((option) =>
+      option
+        .setName("mode")
+        .setDescription("Choisissez un mode de jeu")
+        .setRequired(true)
+        .addChoices(
+          { name: "Battle Royale", value: "battle_royale" },
+          { name: "Reload", value: "reload" },
+          { name: "Festival", value: "festival" },
+          { name: "Lego", value: "lego" },
+          { name: "Rocket Racing", value: "rocket_racing" },
+          { name: "Save the World", value: "save_the_world" },
+        )
+    ),
+
   async execute(interaction) {
-    try {
-      const query = encodeURIComponent(interaction.options.getString("query"));
-      const apiUrl = `https://iamfabriceg.xyz/api/v1/fortnite/save-the-world/heroes`;
+		const mode = interaction.options.getString("mode");
+		console.log(mode);
 
-      https.get(apiUrl, (response) => {
-        let data = "";
+    let embed;
 
-        response.on("data", (chunk) => {
-          data += chunk;
-        });
-
-        response.on("end", () => {
-          try {
-            const heroes = JSON.parse(data);
-
-            if (!Array.isArray(heroes)) {
-              interaction.reply(`Aucun résultat trouvé pour '${query}'.`);
-              return;
-            }
-
-            const filteredHeroes = heroes.filter((hero) => hero.name.includes(query) || hero.id.includes(query));
-
-            if (filteredHeroes.length === 0) {
-              interaction.reply(`Aucun résultat trouvé pour '${query}'.`);
-              return;
-            }
-
-            const formattedHeroes = filteredHeroes.map((hero) => `${hero.name} - ${hero.id}`).join("\n");
-            interaction.reply(`Résultats pour '${query}':\n${formattedHeroes}`);
-          } catch (error) {
-            console.error("Erreur lors du traitement de la réponse de l'API:", error);
-            interaction.reply("Une erreur s'est produite lors de la récupération des données.");
-          }
-        });
-      });
-    } catch (error) {
-      console.error("Erreur lors de l'appel à l'API:", error);
-      interaction.reply("Une erreur s'est produite lors de la récupération des données.");
+    if (mode === "save_the_world") {
+      embed = new EmbedBuilder()
+        .setColor(0x0099ff)
+        .setTitle("Save the World")
+        .setDescription(
+          "Repoussez des hordes de monstres et explorez un immense terrain destructible. Bâtissez des forts énormes, fabriquez des armes, dénichez du butin et montez en niveau. - https://www.fortnite.com/@epic/save-the-world?lang=fr"
+        )
+        .setTimestamp()
+        .setFooter({ text: "Footer text here, pve" });
+    } else if (mode === "battle_royale") {
+      embed = new EmbedBuilder()
+        .setColor(0xff0000)
+        .setTitle("Battle Royale")
+        .setDescription("Informations de Battle Royale - https://www.fortnite.com/@epic/battle-royale")
+        .setTimestamp()
+        .setFooter({ text: "Footer text here" });
+    } else if (mode === "reload") {
+      embed = new EmbedBuilder()
+        .setColor(0xff0000)
+        .setTitle("Reload")
+        .setDescription("Informations de Reload - https://www.fortnite.com/@epic/reload?lang=fr")
+        .setTimestamp()
+        .setFooter({ text: "Footer text here" });
+    } else if (mode === "lego") {
+      embed = new EmbedBuilder()
+        .setColor(0x00ff00)
+        .setTitle("Lego")
+        .setDescription("Informations de Lego - https://www.fortnite.com/@epic/lego-fortnite?lang=fr")
+        .setTimestamp()
+        .setFooter({ text: "Footer text here" });
+    } else if (mode === "festival") {
+      embed = new EmbedBuilder()
+        .setColor(0xffff00)
+        .setTitle("Festival")
+        .setDescription("Informations de Festival - https://www.fortnite.com/@epic/festival-main-stage?lang=fr")
+        .setTimestamp()
+        .setFooter({ text: "Footer text here" });
+    } else if (mode === "rocket_racing") {
+      embed = new EmbedBuilder()
+        .setColor(0xff5500)
+        .setTitle("Rocket Racing")
+        .setDescription("Informations de Rocket Racing - https://www.fortnite.com/@epic/rocket-racing?lang=fr")
+        .setTimestamp()
+        .setFooter({ text: "Footer text here" });
     }
+
+    await interaction.reply({ embeds: [embed] });
   },
 };
