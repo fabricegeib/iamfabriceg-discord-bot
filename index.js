@@ -1,8 +1,9 @@
 // const { token } = require("./config.json");
 require("dotenv").config();
-const { Client, Collection, Events, GatewayIntentBits } = require("discord.js");
+const { Client, Collection, Events, GatewayIntentBits, ActivityType } = require("discord.js");
 const fs = require("node:fs");
 const path = require("node:path");
+const { setInterval } = require("node:timers");
 
 const client = new Client({
   intents: [
@@ -23,8 +24,60 @@ for (const file of commandFiles) {
   client.commands.set(command.data.name, command);
 }
 
+let status = [
+  // {
+  //   name: "iamfabriceg.xyz",
+  //   type: ActivityType.Competing,
+  // },
+  {
+    name: "dev",
+    type: ActivityType.Custom,
+    state: "🚧 development in progress",
+  },
+  {
+    name: "version",
+    type: ActivityType.Custom,
+    state: "🗒️ Version 0.1.2",
+  },
+  // {
+  //   name: "iamfabriceg.xyz",
+  //   type: ActivityType.Listening,
+  // },
+  // {
+  //   name: "iamfabriceg.xyz",
+  //   type: ActivityType.Playing,
+  // },
+  {
+    name: "🧑‍💻 development in progress",
+    type: ActivityType.Streaming,
+    url: "https://twitch.tv/iamfabriceg",
+  },
+  // {
+  //   name: "https://www.youtube.com/watch?v=kgt9rgemH9M&ab_channel=L3scro784",
+  //   type: ActivityType.Watching,
+  // },
+];
+
 client.once(Events.ClientReady, (readyClient) => {
+  // client.user.setActivity({
+  //   name: "Custom",
+  //   type: ActivityType.Custom,
+  //   state: "Custom ✨",
+  //   url: "https://www.youtube.com/watch?v=kgt9rgemH9M&ab_channel=L3scro784",
+  // });
+
+  // client.user.setPresence({
+  //   status: "idle",
+  // });
+
+  setInterval(() => {
+    let random = Math.floor(Math.random() * status.length);
+    client.user.setActivity(status[random]);
+  }, 30000);
+
   console.log(`✅ Ready! Logged in as ${readyClient.user.tag}`);
+
+  console.log(status);
 });
 
 client.on(Events.InteractionCreate, async (interaction) => {
@@ -33,7 +86,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
   const command = client.commands.get(interaction.commandName);
 
   console.log(interaction.commandName);
-  console.log(command)
+  console.log(command);
 
   if (!command) return;
 
