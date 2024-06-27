@@ -1,14 +1,14 @@
 const {
   ActionRowBuilder,
+  SlashCommandBuilder,
   StringSelectMenuBuilder,
   StringSelectMenuOptionBuilder,
-  SlashCommandBuilder,
 } = require("discord.js");
 
 module.exports = {
-	data: new SlashCommandBuilder()
-		.setName("pokemon")
-		.setDescription("Provides information about the user."),
+  data: new SlashCommandBuilder()
+    .setName("pokemon")
+    .setDescription("Provides information about the Pokémon starters."),
   async execute(interaction) {
     const select = new StringSelectMenuBuilder()
       .setCustomId("starter")

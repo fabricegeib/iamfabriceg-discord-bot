@@ -124,6 +124,9 @@ pm2 start index.js --watch --name discord
 - New Application => CREATE AN APPLICATION
 - Bot => Build-A-Bot => PUBLIC BOT (True)
 
+- https://www.fortnite.com/news/fortnite-save-the-world-update-state-of-development?lang=en-US
+- https://pokemongolive.com/?hl=en
+- https://www.pokemon.com/us/pokedex/mew
 <!-- https://skidip.team -->
 
 ---

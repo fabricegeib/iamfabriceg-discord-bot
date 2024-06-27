@@ -37,7 +37,7 @@ let status = [
   {
     name: "version",
     type: ActivityType.Custom,
-    state: "🗒️ Version 0.1.2",
+    state: "🗒️ Version 0.1.3",
   },
   // {
   //   name: "iamfabriceg.xyz",
