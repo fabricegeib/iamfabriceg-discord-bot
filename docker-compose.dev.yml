@@ -12,7 +12,7 @@ services:
     working_dir: /home/node/app
     volumes:
       - ./:/home/node/app
-    command: node index.js
+    command: node src/index.js
     # ports:
     #   - "3000:3000"
     # depends_on:

@@ -1,12 +1,12 @@
-const {
-  EmbedBuilder, 
-  SlashCommandBuilder,
-} = require("discord.js");
+const { EmbedBuilder, SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
     .setName("fortnite")
-    .setDescription("Informations sur les modes de jeu")
+    .setDescription("Game Modes Information")
+    .setDescriptionLocalizations({
+      fr: "Informations sur les modes de jeu",
+    })
     .addStringOption((option) =>
       option
         .setName("mode")

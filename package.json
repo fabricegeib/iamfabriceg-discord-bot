@@ -1,9 +1,9 @@
 {
   "main": "index.js",
   "scripts": {
-    "deploy": "node deploy-commands.js",
-    "send:roles": "node send-roles.js",
-    "start": "node index.js",
+    "deploy": "node src/tasks/deploy-commands.js",
+    "send:roles": "node src/tasks/send-roles.js",
+    "start": "node src/index.js",
     "docker:dev": "docker compose -f docker-compose.dev.yml up -d"
   },
   "dependencies": {
