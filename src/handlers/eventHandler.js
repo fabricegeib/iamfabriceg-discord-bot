@@ -54,9 +54,6 @@ module.exports = (client) => {
       client.user.setActivity(status[random]);
     }, 30000);
 
-    // console.log(`✅ Ready! Logged in as ${readyClient.user.tag}`);
-    console.log(`✅ Ready! Logged in as ${readyClient.user.tag}`);
-
     console.log(status);
   });
 

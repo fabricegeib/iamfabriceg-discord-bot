@@ -13,7 +13,7 @@ module.exports = async (client, message, channel) => {
     const embed = new MessageEmbed()
         .setAuthor("Création d'un nouveau salon")
         .setColor("#43b581")
-        .setDescription(`**Action**: création de slon\n**Salon crée**: ${channel.name}`)
+        .setDescription(`**Action**: création de salon\n**Salon crée**: ${channel.name}`)
         .setTimeStamp()
         .setFooter(executor.username, executor.avatarURL());
 

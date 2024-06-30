@@ -129,6 +129,9 @@ pm2 start index.js --watch --name discord
 - https://www.pokemon.com/us/pokedex/mew
 <!-- https://skidip.team -->
 
+- https://support.discord.com/hc/fr/articles/6156116949911-B%C3%AAta-de-l-Accueil-de-Serveur
+- https://discord.com/developers/docs/intro
+
 ---
 
 ## Roles
